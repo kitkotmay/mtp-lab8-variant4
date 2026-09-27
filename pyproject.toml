@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kovalevich-utils-221141r"
+version = "0.1.0"
+description = "Educational package for laboratory work 8"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    {name = "Kovalevich Aleksandra Andreevna"}
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["kovalevich_utils*"]
